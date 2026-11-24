@@ -54,10 +54,6 @@ python src/process_risk.py --help
 
 The faulty evaluation imports an unpublished local module. See [reproducibility notes](docs/reproducibility.md) for required inputs and known limitations.
 
-## Acknowledgment and citation
-
-The training source identifies [MGCN for Traffic Prediction](https://github.com/Vincent665/MGCN-for-Traffic-Prediction) as the reference implementation. Please cite the associated paper and record the repository commit used. No software license is asserted. Dependencies are source-derived and not version-locked. Research code is not a validated operational safety system.
-
 ## BibTeX
 
 ```bibtex
