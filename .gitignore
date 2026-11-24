@@ -1,0 +1,14 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.env
+.env.*
+!.env.example
+.DS_Store
+dataverse_files/
+kg_stgm_outputs/
+*.pt
+*.pth
