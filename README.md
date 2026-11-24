@@ -16,14 +16,9 @@ Rohan Thakur, Zaman Sajid, Faisal Khan. (2027). KG-STEM: A knowledge-guided fram
 
 ## Architecture
 
-```mermaid
-flowchart LR
-  A[TEP time series] --> C[KG-STEM forecaster]
-  B[Causal graph adjacency] --> C
-  C --> D[Forecast mean and uncertainty]
-  D --> E[Normal and faulty evaluation]
-  D --> F[Scenario sampling and risk analysis]
-```
+![KG-STEM | Knowledge-guided fault prognosis](docs/architecture.svg)
+
+The KGSTGMBlock combines a residual projection and a graph-message-passing branch with inverted embedding and bidirectional selective state-space encoding. Forecast heads predict mean and log variance for measured variables; downstream scripts evaluate normal and faulty runs and estimate risk.
 
 ## Repository structure
 
