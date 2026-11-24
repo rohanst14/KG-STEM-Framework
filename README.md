@@ -14,9 +14,11 @@ Rohan Thakur, Zaman Sajid, Faisal Khan. (2027). KG-STEM: A knowledge-guided fram
 
 [Publisher article](https://www.sciencedirect.com/science/article/pii/S0098135426004199) | [DOI](https://doi.org/10.1016/j.compchemeng.2026.109967)
 
-## Architecture
+## Published framework
 
-![KG-STEM | Knowledge-guided fault prognosis](docs/architecture.svg)
+![KG-STEM original framework figure](docs/KG-STEM-framework.png)
+
+*Original framework figure supplied by the author; associated publication: [10.1016/j.compchemeng.2026.109967](https://doi.org/10.1016/j.compchemeng.2026.109967).*
 
 The KGSTGMBlock combines a residual projection and a graph-message-passing branch with inverted embedding and bidirectional selective state-space encoding. Forecast heads predict mean and log variance for measured variables; downstream scripts evaluate normal and faulty runs and estimate risk.
 
