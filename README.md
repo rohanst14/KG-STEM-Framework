@@ -2,8 +2,6 @@
 
 **Knowledge-Guided Spatio-Temporal Graph Mamba (KG-STEM) for interpretable fault prognosis in process systems.**
 
-The repository name and internal source identifiers retain the earlier KG-STGM naming.
-
 The implementation models a 33-node causal knowledge graph (22 measured process variables and 11 manipulated variables) to generate multistep probabilistic forecasts. Evaluation scripts examine fault-free and faulty trajectories; risk analysis samples forecast scenarios.
 
 [![Paper](https://img.shields.io/badge/DOI-10.1016/j.compchemeng.2026.109967-blue)](https://doi.org/10.1016/j.compchemeng.2026.109967)
