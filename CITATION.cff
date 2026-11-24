@@ -1,7 +1,25 @@
 cff-version: 1.2.0
-message: "If you refer to this repository, please cite the exact commit."
-title: "KG-STGM-Framework"
+message: "Please cite the associated research article when using this repository."
+title: "KG-STEM Framework"
+type: software
 authors:
-  - alias: rohanst14
-    website: https://github.com/rohanst14
+  - given-names: Rohan
+    family-names: Thakur
+    orcid: https://orcid.org/0000-0003-4108-5605
 repository-code: https://github.com/rohanst14/KG-STGM-Framework
+preferred-citation:
+  type: article
+  title: "KG-STEM: A knowledge-guided framework for interpretable fault prognosis in process systems"
+  authors:
+    - given-names: "Rohan"
+      family-names: "Thakur"
+    - given-names: "Zaman"
+      family-names: "Sajid"
+    - given-names: "Faisal"
+      family-names: "Khan"
+  journal: "Computers & Chemical Engineering"
+  year: 2027
+  volume: "217"
+  article-number: "109967"
+  doi: "10.1016/j.compchemeng.2026.109967"
+  url: "https://doi.org/10.1016/j.compchemeng.2026.109967"

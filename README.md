@@ -1,14 +1,24 @@
-# KG-STGM Framework
+# KG-STEM Framework
 
-**Knowledge-Guided Spatiotemporal Graph Mamba for the Tennessee Eastman Process (TEP).**
+**Knowledge-Guided Spatio-Temporal Graph Mamba (KG-STEM) for interpretable fault prognosis in process systems.**
+
+The repository name and internal source identifiers retain the earlier KG-STGM naming.
 
 The implementation models a 33-node causal knowledge graph (22 measured process variables and 11 manipulated variables) to generate multistep probabilistic forecasts. Evaluation scripts examine fault-free and faulty trajectories; risk analysis samples forecast scenarios.
+
+[![Paper](https://img.shields.io/badge/DOI-10.1016/j.compchemeng.2026.109967-blue)](https://doi.org/10.1016/j.compchemeng.2026.109967)
+
+## Publication
+
+Rohan Thakur, Zaman Sajid, Faisal Khan. (2027). KG-STEM: A knowledge-guided framework for interpretable fault prognosis in process systems. *Computers & Chemical Engineering*, 217, 109967. [10.1016/j.compchemeng.2026.109967](https://doi.org/10.1016/j.compchemeng.2026.109967).
+
+[Publisher article](https://www.sciencedirect.com/science/article/pii/S0098135426004199) | [DOI](https://doi.org/10.1016/j.compchemeng.2026.109967)
 
 ## Architecture
 
 ```mermaid
 flowchart LR
-  A[TEP time series] --> C[KG-STGM forecaster]
+  A[TEP time series] --> C[KG-STEM forecaster]
   B[Causal graph adjacency] --> C
   C --> D[Forecast mean and uncertainty]
   D --> E[Normal and faulty evaluation]
@@ -49,4 +59,21 @@ The faulty evaluation imports an unpublished local module. See [reproducibility 
 
 ## Acknowledgment and citation
 
-The training source identifies [MGCN for Traffic Prediction](https://github.com/Vincent665/MGCN-for-Traffic-Prediction) as the reference implementation. Cite the repository URL and exact commit; see [CITATION.cff](CITATION.cff). No license or publication DOI is asserted. Dependencies are source-derived and not version-locked. Research code is not a validated operational safety system.
+The training source identifies [MGCN for Traffic Prediction](https://github.com/Vincent665/MGCN-for-Traffic-Prediction) as the reference implementation. Please cite the associated paper and record the repository commit used. No software license is asserted. Dependencies are source-derived and not version-locked. Research code is not a validated operational safety system.
+
+## BibTeX
+
+```bibtex
+@article{Thakur2027KGSTEM,
+  author = {Thakur, Rohan and Sajid, Zaman and Khan, Faisal},
+  title = {{KG-STEM: A knowledge-guided framework for interpretable fault prognosis in process systems}},
+  journal = {Computers & Chemical Engineering},
+  year = {2027},
+  volume = {217},
+  pages = {109967},
+  doi = {10.1016/j.compchemeng.2026.109967},
+  url = {https://doi.org/10.1016/j.compchemeng.2026.109967}
+}
+```
+
+Machine-readable citation: [CITATION.cff](CITATION.cff).
